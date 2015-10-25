@@ -6,9 +6,5 @@
 	<array>
 		<string>allow-vpn</string>
 	</array>
-	<key>keychain-access-groups</key>
-	<array>
-		<string>$(AppIdentifierPrefix)ZQP.VPN-Air</string>
-	</array>
 </dict>
 </plist>
