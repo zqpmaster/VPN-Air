@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		277952101BDCBF050052C825 /* VPNAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 2779520F1BDCBF050052C825 /* VPNAccount.m */; };
 		277952121BDCC6B30052C825 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277952111BDCC6B30052C825 /* NetworkExtension.framework */; };
+		277952141BDD1CC40052C825 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277952131BDD1CC40052C825 /* Security.framework */; };
 		27CA4BEC1BBE88F80026DA27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CA4BEB1BBE88F80026DA27 /* main.m */; };
 		27CA4BEF1BBE88F80026DA27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CA4BEE1BBE88F80026DA27 /* AppDelegate.m */; };
 		27CA4BF21BBE88F80026DA27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CA4BF11BBE88F80026DA27 /* ViewController.m */; };
@@ -33,6 +34,7 @@
 		2779520E1BDCBF050052C825 /* VPNAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPNAccount.h; sourceTree = "<group>"; };
 		2779520F1BDCBF050052C825 /* VPNAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPNAccount.m; sourceTree = "<group>"; };
 		277952111BDCC6B30052C825 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		277952131BDD1CC40052C825 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		27CA4BE61BBE88F80026DA27 /* VPN-Air.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VPN-Air.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CA4BEA1BBE88F80026DA27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27CA4BEB1BBE88F80026DA27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				277952141BDD1CC40052C825 /* Security.framework in Frameworks */,
 				277952121BDCC6B30052C825 /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +77,7 @@
 		27CA4BDD1BBE88F80026DA27 = {
 			isa = PBXGroup;
 			children = (
+				277952131BDD1CC40052C825 /* Security.framework */,
 				277952111BDCC6B30052C825 /* NetworkExtension.framework */,
 				27CA4BE81BBE88F80026DA27 /* VPN-Air */,
 				27CA4C021BBE88F80026DA27 /* VPN-AirTests */,

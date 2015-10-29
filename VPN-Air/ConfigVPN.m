@@ -123,7 +123,6 @@ NSString *ConfigVPNStatusChangeNotification = @"ConfigVPNStatusChangeNotificatio
     if (status != noErr)
     {
         //        //NSLog(@"Keychain插入错误!");
-        //        ALERT(@"Keychain", @"密码保存出错!");
     }
 }
 
