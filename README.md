@@ -2,4 +2,4 @@
 
 Use NEVPNManager
 
-Only support iOS 8+
+iOS 8+
